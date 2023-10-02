@@ -1,0 +1,145 @@
+@import "vars";
+@import "image";
+
+$color-primary: #111111;
+$body-color: #ffff;
+$span-color: #4a4ff2;
+$border-color: 1px solid rgb(255, 0, 119);
+$body-font: "Poppins", sans-serif;
+
+.section-1 {
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: $main-width;
+  margin-bottom: 8%;
+  display: flex;
+  .title {
+    width: 673px;
+    height: 251px;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .shooting-stars {
+      color: #4a4ff2;
+      text-align: left;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .hello-i-m-bakhtiyar {
+      text-align: left;
+      color: #111111;
+      font: 700 40px/60px "Mulish", sans-serif;
+      span {
+        color: $span-color;
+      }
+    }
+  }
+  .design-is-about-prog {
+    color: #111111;
+    text-align: left;
+    margin-top: 20%;
+  }
+}
+
+.section-3 {
+  justify-content: space-between;
+  width: $main-width;
+  margin: 50px auto;
+  display: flex;
+  .text-2 {
+    color: #111111;
+    text-align: left;
+    font: 700 28px/38px "Mulish", sans-serif;
+    width: 635px;
+    height: 106px;
+  }
+}
+
+.section-4 {
+  align-items: center;
+  margin: 50px auto;
+  justify-content: space-between;
+  width: $main-width;
+  display: flex;
+  flex-direction: column;
+  .line-1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    .awwwards {
+      color: $color-primary;
+      font: 700 22px "Mulish", sans-serif;
+    }
+    .genesis-ui-kit {
+      width: 201px;
+      align-self: flex-start;
+      padding-bottom: 10px;
+      .__1 {
+        font-weight: bold;
+      }
+    }
+    .site-of-the-day-copy {
+      font-weight: bold;
+    }
+  }
+  .line-2 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    .genesis-template {
+      width: 13%;
+      margin-right: 23%;
+      .__1 {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.section-5 {
+  align-items: center;
+  margin: 50px auto;
+  justify-content: space-between;
+  width: $main-width;
+  display: flex;
+  flex-direction: column;
+  .line-1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .cssdesign {
+      color: $color-primary;
+      font: 700 22px "Mulish", sans-serif;
+    }
+    .genesis-ui-kit {
+      width: 201px;
+      align-self: flex-start;
+      padding-bottom: 10px;
+      .__1 {
+        font-weight: bold;
+      }
+    }
+    .site-of-the-day-copy {
+      font-weight: bold;
+    }
+  }
+  .line-2 {
+    display: flex;
+    width: 100%;
+    /* margin-left: 52%; */
+    justify-content: flex-end;
+    .genesis-template {
+      width: 13%;
+      margin-right: 23%;
+      .__1 {
+        font-weight: bold;
+      }
+    }
+  }
+}
